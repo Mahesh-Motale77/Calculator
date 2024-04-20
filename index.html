@@ -11,12 +11,13 @@
 <body>
     <div class="container">
         <div class="calculator-main">
+            <h1 align="center">Calculator</h1>
             <form>
                 <div class="input-div">
                     <input class="data" type="text" value="" name="op" disabled>
                 </div>
                 <div class="row1">
-                    <input type="button"class="special-operator" value="AC" onclick="op.value = ''">
+                    <input type="button" class="special-operator" value="AC" onclick="op.value = ''">
                     <input type="button" class="special-operator" value="C" onclick="op.value = op.value.slice(0,-1)">
                     <input type="button" class="operator" value="/" onclick="op.value += '/'">
                     <input type="button" class="operator" value="%" onclick="op.value += '%'">
